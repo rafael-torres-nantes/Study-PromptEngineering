@@ -1,14 +1,55 @@
 # Chain of Thought Prompt (Cadeia de Pensamento)
 
 **Descrição**  
-O **Chain of Thought Prompt** é um método de prompting que guia o modelo passo a passo, seguindo uma progressão lógica de pensamentos para chegar à resposta final. Essa abordagem é especialmente útil para tarefas complexas que envolvem resolução de problemas e raciocínio.
+O **Chain of Thought Prompt** (CoT) é uma técnica de prompting que conduz o modelo a decompor um problema em uma série de etapas intermediárias de raciocínio, permitindo que ele chegue a uma resposta final mais precisa. Esse método é particularmente útil em tarefas complexas que requerem múltiplas camadas de raciocínio lógico.
 
 **Benefícios**  
-O uso dessa técnica ajuda o modelo de IA a decompor problemas em etapas menores e mais gerenciáveis, resultando em soluções mais precisas.
+A técnica de Cadeia de Pensamento ajuda a IA a raciocinar passo a passo, promovendo uma maior precisão e clareza ao resolver problemas difíceis. Esse processo também melhora a compreensão e resposta a tarefas que envolvem dedução lógica ou questões com várias etapas.
 
 ---
 
 ## Exemplo de Uso
+
+### **Entrada Inicial**
+
+```
+Os números ímpares neste grupo somam um número par: 17, 10, 19, 4, 8, 12, 24.
+R: Vamos pensar passo a passo.
+```
+
+### **Saída Esperada**
+
+```
+Primeiro, identificamos os números ímpares no grupo: 17 e 19.
+Agora somamos os números ímpares: 17 + 19 = 36.
+36 é um número par.
+A resposta é Verdadeiro.
+```
+
+---
+
+## Cadeia de Pensamento com Zero-Shot
+
+No **Zero-Shot Cadeia de Pensamento**, o modelo responde a uma tarefa sem exemplos, mas com uma estrutura lógica explícita que o guia por meio do raciocínio.
+
+### **Entrada Zero-Shot**
+
+```
+Fui ao mercado e comprei 10 maçãs. Dei 2 maçãs ao vizinho e 2 ao reparador. Então fui comprar mais 5 maçãs e comi 1. Com quantas maçãs fiquei? Vamos pensar passo a passo.
+```
+
+### **Saída Esperada**
+
+```
+Primeiro, você começou com 10 maçãs.
+Você deu 2 maçãs para o vizinho e 2 para o reparador, então você tinha 6 maçãs sobrando.
+Então, você comprou mais 5 maçãs, o que te deixou com 11.
+Por fim, você comeu 1 maçã, então ficou com 10 maçãs.
+```
+
+Esse método simples, mas eficaz, ajuda a melhorar a precisão e o entendimento em cenários onde o raciocínio passo a passo é essencial.
+
+## Exemplos adicionais do Chain of Thought
 
 ### **Entrada Inicial**
 
