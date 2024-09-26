@@ -30,7 +30,7 @@ A resposta é Verdadeiro.
 
 ## Cadeia de Pensamento com Zero-Shot
 
-No **Zero-Shot Cadeia de Pensamento**, o modelo responde a uma tarefa sem exemplos, mas com uma estrutura lógica explícita que o guia por meio do raciocínio.
+No **Zero-Shot Cadeia de Pensamento**, o modelo responde a uma tarefa sem exemplos, mas com uma estrutura lógica explícita que o guia por meio do raciocínio. Temos então `Me forneça o passo-a-passo ________` e ``Me ajude a ________`
 
 ### **Entrada Zero-Shot**
 
