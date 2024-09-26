@@ -1,7 +1,3 @@
-Aqui está o README ajustado sem a parte de API e backend, focado no projeto **Study-PromptEngineering**:
-
----
-
 # Study Prompt Engineering
 
 ## 👨‍💻 Projeto desenvolvido por: 
